@@ -9,45 +9,60 @@
 </head>
 
 <body>
-    <div class="left-container">
-        <div class="logo-container"></div>
-    </div>
-    <div class="right-container">
-        <div class="text">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get strated.</p>
-            <p>You know you want to.</p>
-        </div>
-        <div class="form">
-            <div class="first_name_box">
-                <label for="first_name">FIRST NAME</label>
-                <input type="text" id="first_name">
-            </div>
-            <div class="last_name_box">
-                <label for="last_name">LAST NAME</label>
-                <input type="text" id="last_name">
-            </div>
-            <div class="email_box">
-                <label for="email">Email</label>
-                <input type="email" id="email">
-            </div>
-            <div class="phone_number_box">
-                <label for="phone_number_box">PHONE NUMBER</label>
-                <input type="number" id="phone_number">
-            </div>
-            <div class="password_box">
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password_box">
-            </div>
-            <div class="confirmed_password_box">
-                <label for="confirmed_password_box">CONFIRMED PASSWORD</label>
-                <input type="password" id="confirmed_password_box">
+    <div class="content-body">
+        <div class="left-container">
+            <div class="logo-container">
+                <img src="odin-lined.png" alt="Odin Project logo">
+                <p>ODIN</p>
             </div>
         </div>
-        <div class="submit_botton_box">
-            <button>Create Account</button>
-        </div>
-        <div>
-            <p>Already have an account? Log in</p>
+        <div class="right-container">
+            <div class="text">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams. Sign up now to get strated.</p>
+                <p>You know you want to.</p>
+            </div>
+            <div class="form-container">
+                <p class="form-text">Let's do this!</p>
+                <div class="form">
+                    <div class="first-row">
+                        <div class="form-item first_name_box">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name">
+                        </div>
+                        <div class="form-item last_name_box">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name">
+                        </div>
+                    </div>
+                    <div class="second-row">
+                        <div class="form-item email_box">
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="form-item phone_number_box">
+                            <label for="phone_number_box">PHONE NUMBER</label>
+                            <input type="number" id="phone_number">
+                        </div>
+                    </div>
+                    <div class="third-row">
+                        <div class="form-item password_box">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password_box" required>
+                        </div>
+                        <div class="form-item confirmed_password_box">
+                            <label for="confirmed_password_box">CONFIRMED PASSWORD</label>
+                            <input type="password" id="confirmed_password_box" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="submit_botton_box">
+                <button>Create Account</button>
+            </div>
+            <div class="login_message">
+                <p>Already have an account? <span id="login-link">Log in</span></p>
+            </div>
         </div>
     </div>
 </body>
